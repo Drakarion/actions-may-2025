@@ -15,7 +15,7 @@ variable instance_type {}
 
 terraform {
   backend "s3" {
-    bucket = "kaizen-emirs"
+    bucket = "kaizen-adileta"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
